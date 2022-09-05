@@ -1,5 +1,7 @@
 *~
 *.bak
+web/config.inc.php.*
+web/config.inc.php
 
 /.settings
 /.project
