@@ -107,6 +107,7 @@ function get_page_level($page)
     // read features.
     case 'help.php':
     case 'index.php':
+    case 'report.php': // Moved ther reports to the public view
       $result = 0;
       break;
 
@@ -147,7 +148,7 @@ function get_page_level($page)
     case 'edit_area_handler.php':
     case 'edit_room_handler.php':
     case 'import.php':
-    case 'report.php':
+    // case 'report.php':
       $result = 2;
       break;
 
